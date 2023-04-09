@@ -243,6 +243,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 h1 {font-family: 'DM Serif Display', serif; font-size: 100px;font-weight: 700}
 h2 {font-family: "rubik", sans-serif; font-size: 50px}
 h3 {font-family: "rubik", sans-serif; font-size: 200px; }
+span {font-family: 'DM Serif Display', serif; font-size: 20px;font-weight: 700}
 p{font-family: "Noto sans KR", sans-serif; font-size:20px}
 .bluefellow {color:#75A3BF}
 .beigefellow {color:#D9B88F}
@@ -250,6 +251,8 @@ p{font-family: "Noto sans KR", sans-serif; font-size:20px}
 .backbeige {background-color: #D9B88F; color: #FFFFFF;}
 .darkbeigefellow {color:#B17C3C}
 .white {color:#FFFFFF}
+.front {z-index: 4}
+
 
 
 div.transbox {
