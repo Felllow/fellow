@@ -246,10 +246,11 @@ h3 {font-family: "rubik", sans-serif; font-size: 200px; }
 p{font-family: "Noto sans KR", sans-serif; font-size:20px}
 .bluefellow {color:#75A3BF}
 .beigefellow {color:#D9B88F}
+.backblue {background-color:#75A3BF; color:#FFFFFF;}
 .backbeige {background-color: #D9B88F; color: #FFFFFF;}
 .darkbeigefellow {color:#B17C3C}
 .white {color:#FFFFFF}
-.containerfellow {}
+
 
 div.transbox {
   background-color: black;
@@ -265,7 +266,7 @@ div.background {
 }
 
 
-header {
+.headerfellow {
   position: relative;
   background-color: black;
   height: 75vh;
@@ -274,14 +275,16 @@ header {
   overflow: hidden;
 }
 
-header video {
+ video {
+  object-fit: cover;
   position: absolute;
   top: 50%;
   left: 50%;
+	object-position: 40% 40%;
   min-width: 100%;
-  min-height: 100%;
+  max-height: 100%;
   width: 750;
-  height: auto;
+  height: 300;
   z-index: 0;
   -ms-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
@@ -289,12 +292,12 @@ header video {
   transform: translateX(-50%) translateY(-50%);
 }
 
-header .container {
+.containerfellow {
   position: relative;
   z-index: 2;
 }
 
-header .overlay {
+.overlayfellow {
   position: absolute;
   top: 0;
   left: 0;
@@ -310,11 +313,11 @@ header .overlay {
 /* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
 
 @media (pointer: coarse) and (hover: none) {
-  header {
+  .headerfellow {
     background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
   }
 
-  header video {
+  .videofellow {
     display: none;
   }
 }
