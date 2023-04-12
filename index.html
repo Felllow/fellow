@@ -50,7 +50,7 @@ body {font-size:16px;}
 <nav class="w3-sidebar w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
   <div class="w3-container">
-    <img src="images/logo/logo.svg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
+    <img src="images/logo/mainlogo.svg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
 	  
   </div>
   <div class="w3-bar-block">
@@ -58,7 +58,6 @@ body {font-size:16px;}
     <a href="#product" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white white">Product</a> 
     <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white white">About us</a> 
     <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white white">Your Fellow Team</a> 
-    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white white">Package</a> 
     <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white white">Contact</a>
 	  <a href="corporate.html#corporate" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white white">Corporate</a>
   </div>
@@ -107,8 +106,8 @@ body {font-size:16px;}
   <!-- Photo grid (modal) -->
   <div class="w3-row-padding">
     <div class="w3-half">
-      <img src="/w3images/kitchenconcrete.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
-      <img src="/w3images/livingroom.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+      <img src="images/product/charge.jpg" style="width:100%" onclick="onClick(this)" alt="Fellow charging station">
+      <img src="images/product/product.jpg" style="width:100%" onclick="onClick(this)" alt="Fellow">
       <img src="/w3images/diningroom.jpg" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
     </div>
 
@@ -129,49 +128,48 @@ body {font-size:16px;}
   </div>
 
  <div class="w3-container" id="packages" style="margin-top:75px">
-    <h2 class="w3-xxxlarge bluefellow"><b>Packages.</b></h2>
-    <hr style="width:50px;border:5px solid" class="w3-round darkbeigefellow">
     <p>Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
 </div>
 
-  <div class="w3-row-padding">
-    <div class="w3-half w3-margin-bottom">
-      <ul class="w3-ul w3-light-grey w3-center">
-        <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
-        <li class="w3-padding-16">Floorplanning</li>
-        <li class="w3-padding-16">10 hours support</li>
-        <li class="w3-padding-16">Photography</li>
-        <li class="w3-padding-16">20% furniture discount</li>
-        <li class="w3-padding-16">Good deals</li>
-        <li class="w3-padding-16">
-          <h2>$ 199</h2>
-          <span class="w3-opacity">per room</span>
-        </li>
-
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-        </li>
-      </ul>
+	<div class="containerpay p-0 ">
+        <div class="card px-4">
+            <p class="h8 py-3">Payment Details</p>
+            <div class="row gx-3">
+                <div class="col-12">
+                    <div class="d-flex flex-column">
+                        <p class="text mb-1">Person Name</p>
+                        <input class="form-control mb-3" type="text" placeholder="Name" value="">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="d-flex flex-column">
+                        <p class="text mb-1">Card Number</p>
+                        <input class="form-control mb-3" type="text" placeholder="1234 5678 435678">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="d-flex flex-column">
+                        <p class="text mb-1">Expiry</p>
+                        <input class="form-control mb-3" type="text" placeholder="MM/YYYY">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="d-flex flex-column">
+                        <p class="text mb-1">CVV/CVC</p>
+                        <input class="form-control mb-3 pt-2 " type="password" placeholder="***">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="btn btn-primary mb-3">
+                        <span class="ps-3">Pay $243</span>
+                        <span class="fas fa-arrow-right"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-        
-    <div class="w3-half">
-      <ul class="w3-ul w3-light-grey w3-center">
-        <li class="backbeige w3-xlarge w3-padding-32">Pro</li>
-        <li class="w3-padding-16">Floorplanning</li>
-        <li class="w3-padding-16">50 hours support</li>
-        <li class="w3-padding-16">Photography</li>
-        <li class="w3-padding-16">50% furniture discount</li>
-        <li class="w3-padding-16">GREAT deals</li>
-        <li class="w3-padding-16">
-          <h2>$ 249</h2>
-          <span class="w3-opacity">per room</span>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button backbeige w3-padding-large w3-hover-black">Sign Up</button>
-        </li>
-      </ul>
-    </div>
-  </div>
+	
+  
   
 	
   <!-- Services -->
@@ -201,7 +199,7 @@ body {font-size:16px;}
   <div class="w3-row-padding">
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
-        <img src="images/portrait/paul.jpg" alt="John" style="width:100%">
+        <img src="images/portrait/jisk.jpg" alt="John" style="width:100%">
         <div class="w3-container">
           <h2>John Doe</h2>
           <p class="w3-opacity">CEO Founder</p>
@@ -211,7 +209,7 @@ body {font-size:16px;}
     </div>
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
-        <img src="images/portrait/paul.jpg" alt="Jane" style="width:100%">
+        <img src="images/portrait/laur.jpg" alt="Jane" style="width:100%">
         <div class="w3-container">
           <h2>Jane Doe</h2>
           <p class="w3-opacity">Designer</p>
@@ -221,7 +219,7 @@ body {font-size:16px;}
     </div>
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
-        <img src="images/portrait/paul.jpg" alt="Mike" style="width:100%">
+        <img src="images/portrait/pau.jpg" alt="Mike" style="width:100%">
         <div class="w3-container">
           <h2>Mike Ross</h2>
           <p class="w3-opacity">Architect</p>
@@ -234,7 +232,7 @@ body {font-size:16px;}
   <div class="w3-row-padding">
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
-        <img src="images/portrait/paul.jpg" alt="John" style="width:100%">
+        <img src="images/portrait/isal.jpg" alt="John" style="width:100%">
         <div class="w3-container">
           <h2>John Doe</h2>
           <p class="w3-opacity">CEO Founder</p>
