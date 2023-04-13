@@ -325,6 +325,7 @@ div.background {
   }
 }
 
+<<<<<<< Updated upstream
 
 
 .card {
@@ -393,4 +394,11 @@ div.background {
 .placeholder {
     font-size: 14px;
     font-weight: 600;
+=======
+.overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+>>>>>>> Stashed changes
 }
