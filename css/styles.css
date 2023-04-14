@@ -398,3 +398,7 @@ div.background {
 .carousel{
   interval: 2000
 }
+
+.round {
+  border-radius: 10%;
+}
